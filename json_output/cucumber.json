@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-16T16:05:33.054Z",
+        "line": 5,
+        "name": "Customer place an order by purchasing an item from search",
+        "description": "",
+        "id": "automated-end-to-end-tests;customer-place-an-order-by-purchasing-an-item-from-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e\u003ddnsNotFound\u0026u\u003dhttps%3A//www.shop.demoqa.com/\u0026c\u003dUTF-8\u0026f\u003dregular\u0026d\u003dWe%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.shop.demoqa.com.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8C4CL6D\u0027, ip: \u0027192.168.1.71\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13008, moz:profile: C:\\Users\\srinipriya\\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5dc8139b-7ed9-4bab-8cf7-877fcb5e4d43\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat stepDefinitions.Steps.user_is_on_Home_Page(Steps.java:28)\r\n\tat ✽.User is on Home Page(file:///C:/Users/srinipriya/eclipse-workspace/Maven_cucumber_POM/src/test/resources/functionalTests/End2End.feature:6)\r\n",
+              "duration": 48358000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "stepDefinitions.Steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he searches for \"dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dress\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.Steps.he_searches_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "choose to buy the first item",
+            "match": {
+              "location": "stepDefinitions.Steps.choose_to_buy_the_first_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "moves to checkout from mini cart",
+            "match": {
+              "location": "stepDefinitions.Steps.moves_to_checkout_from_mini_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enters personal details on checkout page",
+            "match": {
+              "location": "stepDefinitions.Steps.enters_personal_details_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "select same delivery address",
+            "match": {
+              "location": "stepDefinitions.Steps.select_same_delivery_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "selects payment method as \"check\" payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"check\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Steps.selects_payment_method_as_payment(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "places the order",
+            "match": {
+              "location": "stepDefinitions.Steps.places_the_order()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Srini"
+          }
+        ]
+      }
+    ],
+    "name": "Automated End to End Tests",
+    "description": "  I want to build end to end test",
+    "id": "automated-end-to-end-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/functionalTests/End2End.feature",
+    "tags": []
+  }
+]
