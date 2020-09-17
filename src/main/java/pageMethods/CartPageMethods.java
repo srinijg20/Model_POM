@@ -23,7 +23,7 @@ public class CartPageMethods {
 	public void clickOn_ContinueToCheckout() {
 		cart.btn_ContinueToCheckout.click();
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(4000);
 		} catch (InterruptedException e) {
 		}
 	}
